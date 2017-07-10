@@ -1,9 +1,9 @@
 # code your solution here
 def factorial (num)
-  if n == 0 || n == 1
+  if num == 0 || num == 1
     return 1
   else
-    return n * factorial(n-1)
+    return num * factorial(num-1)
   end
 end
 
